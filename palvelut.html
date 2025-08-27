@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palvelut - Kotkantien maalaus ja tapetointi</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <a class="navbar-brand" href="index.html" style="color: black;">
+                <img src="images/paintbrush.png" alt="Logo" class="navbar-logo">
+                Kotkantien Maalaus
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Etusivu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="palvelut.html">Palvelut</a></li>
+                    <li class="nav-item"><a class="nav-link" href="varientestaus.html">Värien testaus</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galleria.html">Galleria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="yhteystiedot.html">Yhteystiedot</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Palvelut</h1>
+                <p>Tarjoamme laadukkaita maalaus- ja tapetointipalveluja, jotka on räätälöity vastaamaan asiakkaidemme tarpeita.</p>
+            </div>
+        </section>
+
+        <section class="section services">
+            <div class="container">
+                <h2>Palvelumme</h2>
+                <div class="row">
+                    <!-- Maalauspalvelut -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="images/maalaus.jpg" class="card-img-top" alt="Maalauspalvelu">
+                            <div class="card-body">
+                                <h5 class="card-title">Maalauspalvelut</h5>
+                                <p class="card-text">Korkealaatuisia sisä- ja ulkomaalauspalveluita, jotka tekevät kodistasi kuin uuden.</p>
+                                <a href="#maalaus" class="btn btn-primary">Lue lisää</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tapetointipalvelut -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="images/tapetointi.jpg" class="card-img-top" alt="Tapetointipalvelu">
+                            <div class="card-body">
+                                <h5 class="card-title">Tapetointipalvelut</h5>
+                                <p class="card-text">Ammattitaitoista tapetointia, joka tuo seinillesi tyylikkyyttä ja persoonallisuutta.</p>
+                                <a href="#tapetointi" class="btn btn-primary">Lue lisää</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Korjauspalvelut -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="images/korjaus.jpg" class="card-img-top" alt="Korjauspalvelu">
+                            <div class="card-body">
+                                <h5 class="card-title">Korjauspalvelut</h5>
+                                <p class="card-text">Korjaamme ja kunnostamme maalatut ja tapetoidut pinnat nopeasti ja laadukkaasti.</p>
+                                <a href="#korjaus" class="btn btn-primary">Lue lisää</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section details">
+            <div class="container">
+                <h2>Palvelujen yksityiskohdat</h2>
+                <div id="maalaus" class="service-detail">
+                    <h3>Maalauspalvelut</h3>
+                    <p>Olipa kyseessä sisämaalaus, ulkomaalaus tai vaikka kalusteiden kunnostus, meiltä löytyy osaamista kaikkiin kohteisiin. Käytämme laadukkaita maaleja ja työvälineitä, jotka takaavat kestävän ja kauniin lopputuloksen.</p>
+                </div>
+                <div id="tapetointi" class="service-detail">
+                    <h3>Tapetointipalvelut</h3>
+                    <p>Tarjoamme ammattitaitoista tapetointia, joka vastaa juuri sinun makuasi ja tarpeitasi. Autamme myös vanhojen tapettien poistossa ja pintojen valmistelussa.</p>
+                </div>
+                <div id="korjaus" class="service-detail">
+                    <h3>Korjauspalvelut</h3>
+                    <p>Palveluihimme kuuluu myös pintojen kunnostus. Korjaamme esimerkiksi kolhut, naarmut ja repeämät seinissä tai muilla pinnoilla nopeasti ja edullisesti.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-left">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1686.077492261227!2d25.510924900000003!3d65.0014671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4681cd5aac2e0dcb%3A0xd0f738d563fe562d!2sKotkantie%203%2C%2090250%20Oulu!5e0!3m2!1sfi!2sfi!4v1724305234784!5m2!1sfi!2sfi" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <p>&copy; 2023 Kotkantien Maalaus ja Tapetointi</p> 
+                </div>
+                <div class="col-md-4 text-right"></div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

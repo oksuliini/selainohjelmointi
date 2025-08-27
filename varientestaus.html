@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Värien testaus - Kotkantien maalaus ja tapetointi</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script src="js/scripts.js" defer></script> <!-- Your existing script -->
+    <script src="js/varientestaus.js" defer></script> <!-- New script for color testing -->
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <a class="navbar-brand" href="index.html" style="color: black;">
+                <img src="images/paintbrush.png" alt="Logo" class="navbar-logo">
+                Kotkantien Maalaus
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Etusivu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="palvelut.html">Palvelut</a></li>
+                    <li class="nav-item"><a class="nav-link" href="varientestaus.html">Värien testaus</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galleria.html">Galleria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="yhteystiedot.html">Yhteystiedot</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="section varientestaus">
+        <div class="container">
+            <h2 class="text-center mb-4">Värien testaus</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 id="tausta1Nimi">Tausta 1</h3>
+                    <div class="varivaihto" id="vari1"></div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="form-group">
+                        <label for="taustaValinta">Valitse tausta:</label>
+                        <select id="taustaValinta" class="form-control">
+                            <option value="vari1">Tausta 1</option>
+                            <option value="vari2">Tausta 2</option>
+                        </select>
+                    </div>
+                    <button onclick="nollaaVari()" class="btn btn-secondary">Nollaa värit</button>
+                </div>
+                <div class="col-md-4">
+                    <h3 id="tausta2Nimi">Tausta 2</h3>
+                    <div class="varivaihto" id="vari2"></div>
+                </div>
+            </div>
+            <div id="varinapit" class="text-center mb-4">
+                <!-- Värit lisätään JavaScriptillä -->
+            </div>
+        </div>
+    </section>
+       
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-left">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1686.077492261227!2d25.510924900000003!3d65.0014671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4681cd5aac2e0dcb%3A0xd0f738d563fe562d!2sKotkantie%203%2C%2090250%20Oulu!5e0!3m2!1sfi!2sfi!4v1724305234784!5m2!1sfi!2sfi" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <p>&copy; 2023 Kotkantien Maalaus ja Tapetointi</p> 
+                </div>
+                <div class="col-md-4 text-right"></div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yhteystiedot - Kotkantien maalaus ja tapetointi</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css"> 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <a class="navbar-brand" href="index.html" style="color: black;">
+                <img src="images/paintbrush.png" alt="Logo" class="navbar-logo">
+                Kotkantien Maalaus
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Etusivu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="palvelut.html">Palvelut</a></li>
+                    <li class="nav-item"><a class="nav-link" href="varientestaus.html">Värien testaus</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galleria.html">Galleria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="yhteystiedot.html">Yhteystiedot</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-info py-5">
+            <div class="container1">
+                <h1 class="text-center mb-5">Yhteystiedot</h1>
+                <div class="row">
+                    <div class="col-3" >
+                        <h2 class="yht-ajat">Yhteystiedot</h2>
+                        <p><strong>Osoite:</strong> Kotkantie 3, 90100 Oulu</p>
+                        <p><strong>Puhelin:</strong> <a href="tel:+358401234567">044 999 888 99</a></p>
+                        <p><strong>Sähköposti:</strong> <a href="mailto:info@kotkantienmaalaukset.fi">info@kotkantienmaalaukset.fi</a></p> <br>
+
+                        <div class="team-members">
+                            <h3>Tapaa tiimimme</h3>
+                            <div class="team-member">
+                                <img src="images/pfp.webp" alt="Tiimimme jäsen 1">
+                                <div class="team-info">
+                                    <h4>Anna Ahonen</h4>
+                                    <p><Strong>Johtava maalari</Strong> <br><strong>Puhelin: </strong><a href="tel:+35801234567"> 044 999 888 12</a> </p>
+                                </div>
+                            </div><br>
+                            <div class="team-member">
+                                <img src="images/pfp.webp" alt="Tiimimme jäsen 2">
+                                <div class="team-info">
+                                    <h4>Jukka Järvinen</h4>
+                                    <p><Strong>tapetointi expertti</Strong> <br><strong>Puhelin: </strong><a href="tel:+35801234567"> 044 999 888 11</a></p>
+                                </div>
+                            </div>
+                        </div><br><br>
+                        <div>
+                            <h2 class="yht-ajat">Aukioloajat</h2>
+                            <p>Ma-Pe: 8:00 - 17:00</p>
+                            <p>La: 10:00 - 15:00</p>
+                            <p>Su: Suljettu</p>
+                            </div>
+                    </div>
+                    <div class="col-6">
+                        <h2>Ota yhteyttä</h2>
+                        <form  method="post" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nimi</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Sähköposti</label>
+                                <input type="email" placeholder="Example@gmail.com" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phoneNumber">Puhelinnumero</label>
+                                <input type="tel" placeholder="044 999 999 99" class="form-control" id="number" name="number" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Viesti</label>
+                                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Lähetä</button>
+                        </form>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-left">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1686.077492261227!2d25.510924900000003!3d65.0014671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4681cd5aac2e0dcb%3A0xd0f738d563fe562d!2sKotkantie%203%2C%2090250%20Oulu!5e0!3m2!1sfi!2sfi!4v1724305234784!5m2!1sfi!2sfi" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <p>&copy; 2023 Kotkantien Maalaus ja Tapetointi</p> 
+                </div>
+                <div class="col-md-4 text-right"></div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etusivu - Kotkantien maalaus ja tapetointi</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css"> 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <a class="navbar-brand" href="index.html" style="color: black;">
+                <img src="images/paintbrush.png" alt="Logo" class="navbar-logo">
+                Kotkantien Maalaus
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Etusivu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="palvelut.html">Palvelut</a></li>
+                    <li class="nav-item"><a class="nav-link" href="varientestaus.html">Värien testaus</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galleria.html">Galleria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="yhteystiedot.html">Yhteystiedot</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Kotkantien Maalaus ja Tapetointi</h1>
+                <p>Ammattitaitoista palvelua vuosien kokemuksella</p>
+                <a href="palvelut.html" class="btn btn-primary">Tutustu palveluihin</a>
+            </div>
+        </section>
+
+        <section class="section testimonials">
+            <div class="container">
+                <h2>Asiakaspalautteet</h2>
+                <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="d-flex">
+                                <!-- Arvostelu 1 -->
+                                <div class="testimonial-item">
+                                    <div class="testimonial-content">
+                                        <p>"Erinomaista palvelua ja upea lopputulos. Suosittelen lämpimästi!"</p>
+                                    </div>
+                                    <div class="testimonial-footer">
+                                        <span class="testimonial-name">Matti Meikäläinen</span>
+                                    </div>
+                                </div>
+                                <!-- Arvostelu 2 -->
+                                <div class="testimonial-item">
+                                    <div class="testimonial-content">
+                                        <p>"Ammattitaitoista työtä ja ystävällistä asiakaspalvelua. Ei voi muuta kuin kiittää!"</p>
+                                    </div>
+                                    <div class="testimonial-footer">
+                                        <span class="testimonial-name">Maija Mallikas</span>
+                                    </div>
+                                </div>
+                                <!-- Arvostelu 3 -->
+                                <div class="testimonial-item">
+                                    <div class="testimonial-content">
+                                        <p>"Kiitos upeasta tapetoinnista! Lopputulos ylitti odotukseni. Aivan mahtavaa työtä!"</p>
+                                    </div>
+                                    <div class="testimonial-footer">
+                                        <span class="testimonial-name">Kalle Kustaa</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex">
+                                <!-- Arvostelu 4 -->
+                                <div class="testimonial-item">
+                                    <div class="testimonial-content">
+                                        <p>"Loistavaa työtä ja erinomaista asiakaspalvelua. Suosittelen kaikille!"</p>
+                                    </div>
+                                    <div class="testimonial-footer">
+                                        <span class="testimonial-name">Anna Ahonen</span>
+                                    </div>
+                                </div>
+                                <!-- Arvostelu 5 -->
+                                <div class="testimonial-item">
+                                    <div class="testimonial-content">
+                                        <p>"Nopea ja tehokas palvelu, olen erittäin tyytyväinen. Tämä on paras maalauspalvelu!"</p>
+                                    </div>
+                                    <div class="testimonial-footer">
+                                        <span class="testimonial-name">Jukka Järvinen</span>
+                                    </div>
+                                </div>
+                                <!-- Arvostelu 6 -->
+                                <div class="testimonial-item">
+                                    <div class="testimonial-content">
+                                        <p>"Erinomaiset palvelut ja ammattilaisia! Kiitos kaikesta työstä, joka todella huomattiin."</p>
+                                    </div>
+                                    <div class="testimonial-footer">
+                                        <span class="testimonial-name">Laura Laakso</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex">
+                                <!-- Arvostelu 7 -->
+                                <div class="testimonial-item">
+                                    <div class="testimonial-content">
+                                        <p>"Käytämme aina Kotkantien Maalausta, koska he tekevät työnsä todella hyvin. Kiitos!"</p>
+                                    </div>
+                                    <div class="testimonial-footer">
+                                        <span class="testimonial-name">Timo Tikkanen</span>
+                                    </div>
+                                </div>
+                                <!-- Arvostelu 8 -->
+                                <div class="testimonial-item">
+                                    <div class="testimonial-content">
+                                        <p>"Luotettavaa ja ystävällistä palvelua, kiitos koko tiimille. Suosittelen lämpimästi!"</p>
+                                    </div>
+                                    <div class="testimonial-footer">
+                                        <span class="testimonial-name">Pia Pärssinen</span>
+                                    </div>
+                                </div>
+                                <!-- Arvostelu 9 -->
+                                <div class="testimonial-item">
+                                    <div class="testimonial-content">
+                                        <p>"Mahtavaa palvelua, joka ylitti odotuksemme. Täällä tiedetään mitä tehdään!"</p>
+                                    </div>
+                                    <div class="testimonial-footer">
+                                        <span class="testimonial-name">Eero Elo</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Nuolipainikkeet -->
+                    <a class="carousel-control-prev custom-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Edellinen</span>
+                    </a>
+                    <a class="carousel-control-next custom-next" href="#testimonialCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Seuraava</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        
+
+        <section class="section services">
+            <div class="container">
+                <h2>Palvelumme</h2>
+                <div class="row">
+                    <!-- Maalauspalvelut -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="images/maalaus.jpg" class="card-img-top" alt="Maalauspalvelu">
+                            <div class="card-body">
+                                <h5 class="card-title">Maalauspalvelut</h5>
+                                <p class="card-text">Tarjoamme korkealaatuisia maalauspalveluja sisä- ja ulkotiloihin.</p>
+                                <a href="palvelut.html#maalaus" class="btn btn-primary">Lue lisää</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tapetointipalvelut -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="images/tapetointi.jpg" class="card-img-top" alt="Tapetointipalvelu">
+                            <div class="card-body">
+                                <h5 class="card-title">Tapetointipalvelut</h5>
+                                <p class="card-text">Ammattitaitoista tapetointia vaativiinkin kohteisiin.</p>
+                                <a href="palvelut.html#tapetointi" class="btn btn-primary">Lue lisää</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Korjauspalvelut -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="images/korjaus.jpg" class="card-img-top" alt="Korjauspalvelu">
+                            <div class="card-body">
+                                <h5 class="card-title">Korjauspalvelut</h5>
+                                <p class="card-text">Korjaamme ja huollamme maalatut ja tapetoidut pinnat.</p>
+                                <a href="palvelut.html#korjaus" class="btn btn-primary">Lue lisää</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+        <section class="section about-us">
+            <div class="container">
+                <h2>Meistä</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="about-content">
+                            <h3>Kuka me olemme</h3>
+                            <p>Me Kotkantien Maalauksessa tarjoamme korkealaatuisia maalaus- ja tapetointipalveluja vuosien kokemuksella. Meidän tiimimme koostuu ammattitaitoisista ja intohimoisista asiantuntijoista, jotka ovat sitoutuneet tarjoamaan parasta mahdollista palvelua asiakkaillemme.</p>
+                            <p>Olemme erikoistuneet erityisesti yksityisasiakkaiden palveluun, mutta palvelemme myös yritysasiakkaita. Meidän palvelumme kattavat niin pienet kuin suuret projektit, ja pyrimme aina ylittämään asiakkaidemme odotukset.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="team-members">
+                            <h3>Tapaa tiimimme</h3>
+                            <div class="team-member">
+                                <img src="images/pfp.webp" alt="Tiimimme jäsen 1">
+                                <div class="team-info">
+                                    <h4>Anna Ahonen</h4>
+                                    <p>Johtava maalarimme, jolla on yli 10 vuoden kokemus alalta. Anna on erikoistunut yksityiskohtaisiin viimeistelytöihin ja asiakaspalveluun.</p>
+                                </div>
+                            </div>
+                            <div class="team-member">
+                                <img src="images/pfp.webp" alt="Tiimimme jäsen 2">
+                                <div class="team-info">
+                                    <h4>Jukka Järvinen</h4>
+                                    <p>Tapetointiexpertti, joka tuntee kaikki uudet trendit ja tekniikat. Jukka varmistaa, että jokainen projekti suoritetaan korkeimmalla laadulla.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="section contact-us">
+            <div class="container">
+                <h2>Ota yhteyttä</h2>
+                <div class="contact-info">
+                    <div class="contact-detail">
+                        <h3>Yhteystiedot</h3>
+                        <p><strong>Osoite:</strong> Kotkantie 15, 00100 Helsinki</p>
+                        <p><strong>Puhelin:</strong> +358 40 123 4567</p>
+                        <p><strong>Sähköposti:</strong> info@kotkantienmaalaukset.fi</p>
+                        <a href="yhteystiedot.html" class="btn btn-primary">Katso lisää yhteystiedoista</a>
+                    </div>
+                </div>
+            </div>
+        </section>    
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-left">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1686.077492261227!2d25.510924900000003!3d65.0014671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4681cd5aac2e0dcb%3A0xd0f738d563fe562d!2sKotkantie%203%2C%2090250%20Oulu!5e0!3m2!1sfi!2sfi!4v1724305234784!5m2!1sfi!2sfi" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <p>&copy; 2023 Kotkantien Maalaus ja Tapetointi</p> 
+                </div>
+                <div class="col-md-4 text-right"></div>
+            </div>
+        </div>
+    </footer>
+    
+    
+
+    
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
