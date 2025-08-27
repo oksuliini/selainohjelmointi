@@ -114,11 +114,6 @@ footer .social-icon:hover {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-.contact-form .form-control {
-    border-radius: 4px;
-}
-
 .contact-form .btn {
     background-color: #007bff;
     border: none;
@@ -250,10 +245,17 @@ main {
 }
 
 .contact-form .form-group {
+    display: flex;
+    align-items: center;
     margin-bottom: 1rem;
+    flex-wrap: wrap; /* Responsiivisuus pienemmille näytöille */
 }
 
+
 .contact-form label {
+    width: 120px; /* Voit säätää labelin leveyden */
+    margin-right: 15px;
+    text-align: right;
     font-weight: bold;
 }
 
@@ -262,8 +264,17 @@ main {
     border: 1px solid #ced4da;
     padding: 0.375rem;
     font-size: 0.875rem;
+    flex: 1; /* Kenttä täyttää loput rivistä */
+    min-width: 200px; /* Pienin leveys kentälle */
 }
 
+.contact-form textarea.form-control {
+    height: auto; /* Säilyttää rivien määrän */
+}
+
+.contact-form button.btn {
+    margin-left: 135px; /* Kohdista nappi labelien jälkeen */
+}
 .contact-form .btn {
     background-color: #343148;
     color: white;
